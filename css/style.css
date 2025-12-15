@@ -26,39 +26,83 @@ video {
 
 .reel-header {
 	position: absolute;
+	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin: 15px;
 	top: 0;
 	left: 0;
 	right: 0;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
-}
-
-/* Footer */
-
-footer {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
 	color: #fff;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
 
+.header-tabs {
+	display: flex;
+	gap: 10px;
+}
+
+.tab{
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff80;
+}
+
+.for-you {
+	color: #fff;
+	font-weight: 700;
+}
+
+.follower{
+	position: relative;
+}
+
+.puntino{
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #FF000080;
+	border-radius: 50%;
+	margin-left: 6px;
+	vertical-align: text-top;
+	position: absolute;
+	left: 45px;
+	bottom: 25px;	
+}
+
+.linea{
+	display: block;
+	width: 24px;
+    height: 2px;
+	background-color: #fff;
+	margin: 2px auto 0;
+}
+
+/* Footer */
+
+/*footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+}
+	/* Inserisci qui sotto 
+	le tue regole, se necessario. */
+
+
 /* Sidebar */
-.sidebar {
+/*.sidebar {
 	padding: 0 16px;
 	position: absolute;
 	right: 0;
 	top: 40%;
-
+}
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-}
+
 
 /* ---------------------
 Regole per evidenziare i blocchi 
